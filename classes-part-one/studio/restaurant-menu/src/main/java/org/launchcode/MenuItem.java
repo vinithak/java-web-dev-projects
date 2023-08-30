@@ -28,4 +28,17 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public void getPrice(double price) {
+        return this.price;
+    }
+
+    public void getDescription(String description) {
+        return this.description;
+    }
+
+    public void getCategory(String category) {
+        return this.category;
+    }
+
 }
